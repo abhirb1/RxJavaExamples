@@ -27,30 +27,15 @@ public class MainActivityFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_main, container, false);;
+        View view = inflater.inflate(R.layout.fragment_main, container, false);
         ButterKnife.bind(this, view);
         return view;
     }
 
     @OnClick(R.id.btn_retro_rxjava)
     void onClickOfRetrofitAndRxjava() {
-            setFragment(new TimerFragment());
-        String dateStart = "2015-11-23 15:41:33";
-        String dateStop = "2015-11-26 15:41:33";
+       setFragment(new TimerFragment());
 
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-
-        Date firstDate = null;
-        Date secondDate = null;
-        try {
-            firstDate = format.parse(dateStart);
-            secondDate = format.parse(dateStop);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-
-        Log.i("Date","date difference " + TimeUnit.DAYS.convert(secondDate.getTime() - firstDate.getTime(), TimeUnit
-                .MILLISECONDS));
 
     }
 
