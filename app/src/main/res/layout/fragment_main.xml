@@ -20,5 +20,12 @@
             android:text="@string/retrofitAndRxjava"
             />
 
+        <Button
+            android:id="@+id/btn_debounce_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/debounce_search"
+            />
+
     </LinearLayout>
 </ScrollView>
