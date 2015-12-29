@@ -29,13 +29,16 @@ public class MainActivityFragment extends Fragment {
     @OnClick(R.id.btn_retro_rxjava)
     void onClickOfRetrofitAndRxjava() {
        setFragment(new TimerFragment());
-
-
     }
 
     @OnClick(R.id.btn_debounce_search)
     void onClickOfDebounceSearch() {
         setFragment(new DebounceSearchFragment());
+    }
+
+    @OnClick(R.id.btn_combine_latest)
+    void onClickOfCombineLatest() {
+        setFragment(new CombineLatestFragment());
     }
 
     private void setFragment(@NonNull Fragment fragment) {

@@ -5,4 +5,5 @@
 
     <string name="retrofitAndRxjava">Retrofit with RxJava</string>
     <string name="debounce_search">Debounce Search Emitter</string>
+    <string name="combine_latest">Combine Latest Form Validation</string>
 </resources>
