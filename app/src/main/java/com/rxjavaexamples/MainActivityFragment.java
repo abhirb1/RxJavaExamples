@@ -3,15 +3,9 @@ package com.rxjavaexamples;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -35,8 +29,16 @@ public class MainActivityFragment extends Fragment {
     @OnClick(R.id.btn_retro_rxjava)
     void onClickOfRetrofitAndRxjava() {
        setFragment(new TimerFragment());
+    }
 
+    @OnClick(R.id.btn_debounce_search)
+    void onClickOfDebounceSearch() {
+        setFragment(new DebounceSearchFragment());
+    }
 
+    @OnClick(R.id.btn_combine_latest)
+    void onClickOfCombineLatest() {
+        setFragment(new CombineLatestFragment());
     }
 
     private void setFragment(@NonNull Fragment fragment) {
