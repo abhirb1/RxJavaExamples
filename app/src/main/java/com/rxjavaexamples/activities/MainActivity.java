@@ -1,9 +1,12 @@
-package com.rxjavaexamples;
+package com.rxjavaexamples.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.rxjavaexamples.R;
+import com.rxjavaexamples.fragments.MainActivityFragment;
 
 public class MainActivity extends AppCompatActivity {
 

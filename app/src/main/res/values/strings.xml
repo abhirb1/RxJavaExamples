@@ -6,4 +6,7 @@
     <string name="retrofitAndRxjava">Retrofit with RxJava</string>
     <string name="debounce_search">Debounce Search Emitter</string>
     <string name="combine_latest">Combine Latest Form Validation</string>
+    <string name="background_work">Background work</string>
+    <string name="start_long_operation">Start Long Operation</string>
+
 </resources>

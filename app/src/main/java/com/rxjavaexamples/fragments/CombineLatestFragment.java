@@ -1,4 +1,4 @@
-package com.rxjavaexamples;
+package com.rxjavaexamples.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.jakewharton.rxbinding.widget.RxTextView;
+import com.rxjavaexamples.R;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

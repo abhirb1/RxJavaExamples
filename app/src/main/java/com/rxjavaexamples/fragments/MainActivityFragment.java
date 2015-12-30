@@ -1,4 +1,4 @@
-package com.rxjavaexamples;
+package com.rxjavaexamples.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -6,6 +6,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.rxjavaexamples.R;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -39,6 +41,11 @@ public class MainActivityFragment extends Fragment {
     @OnClick(R.id.btn_combine_latest)
     void onClickOfCombineLatest() {
         setFragment(new CombineLatestFragment());
+    }
+
+    @OnClick(R.id.btn_background_work)
+    void onClickOfBackgroundWork() {
+        setFragment(new BackgroundWorkFragment());
     }
 
     private void setFragment(@NonNull Fragment fragment) {

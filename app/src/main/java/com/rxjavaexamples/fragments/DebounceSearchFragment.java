@@ -1,4 +1,4 @@
-package com.rxjavaexamples;
+package com.rxjavaexamples.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,6 +10,7 @@ import android.widget.ListView;
 
 import com.jakewharton.rxbinding.widget.RxTextView;
 import com.jakewharton.rxbinding.widget.TextViewTextChangeEvent;
+import com.rxjavaexamples.R;
 import com.rxjavaexamples.adapters.LogAdapter;
 
 import java.util.ArrayList;

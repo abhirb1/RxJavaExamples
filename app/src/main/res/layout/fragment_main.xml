@@ -34,5 +34,12 @@
             android:text="@string/combine_latest"
             />
 
+        <Button
+            android:id="@+id/btn_background_work"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/background_work"
+            />
+
     </LinearLayout>
 </ScrollView>
